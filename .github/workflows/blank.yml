@@ -34,3 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo $(which ping)
+          ping 1.1.1.1 -c 4

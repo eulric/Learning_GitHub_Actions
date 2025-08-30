@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          ping 1.1.1.1 -c 4
+          echo $(which ping)
